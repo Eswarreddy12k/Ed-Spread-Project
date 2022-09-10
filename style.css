@@ -175,7 +175,7 @@ input{
     flex-direction: column;
     height: 85vh;
 }
-.num{
+.num1{
     font-size: 90px;
 }
 .but{
@@ -194,9 +194,36 @@ input{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 90vh;
 }
-#num{
-    padding: 2px 20px;
+.num{
+    box-sizing: border-box;
+    width: 105px;
+    height: 50px;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 6px;
+    background-color: white;
+}
+.num:hover{
+    background-color:wheat;
+    transform: scale(1.01,1.01);
+}
+#inpbox{
+    width: 432px;
+    height: 60px;
+    margin-bottom: 5px !important;
+    border: 1px solid black;
+    margin-top: 60px !important;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 28px;
+    padding-left: 8px;
+    overflow-x: hidden;
+    
+    
 }
 
 
