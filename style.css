@@ -248,3 +248,12 @@ input{
         height: 20vh;
     }
 }
+@media screen and (max-width:460px){
+    .num{
+        width: 70px;
+        height: 40px;
+    }
+    #inpbox{
+        width: 300px;
+    }
+}
